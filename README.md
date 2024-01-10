@@ -1,4 +1,4 @@
-The provided code is an implementation of the Bat Algorithm for feature selection in the context of a classification problem using a RandomForestClassifier. Here's a breakdown of the code:
+Implementation of the Bat Algorithm for feature selection in the context of a classification problem using a RandomForestClassifier:
 
 1. **Data Generation and Splitting:**
    ```python
