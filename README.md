@@ -3,7 +3,7 @@ Implementation of the Bat Algorithm for feature selection in the context of a cl
 1. **Data Generation and Splitting:**
    ```python
   X, y = np.random.rand(100, 20), np.random.randint(0, 2, 100)  #20 features for demonstration
-X_train_reduced, X_test_reduced, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+   X_train_reduced, X_test_reduced, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
    ```
    Dummy data is generated, and it is split into training and testing sets using the `train_test_split` function from scikit-learn.
 
