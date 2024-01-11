@@ -10,7 +10,7 @@ Implementation of the Bat Algorithm for feature selection in the context of a cl
 2. **Bat Algorithm Implementation:**
    ```python
     best_features = bat_algorithm(X_train_reduced, X_test_reduced, y_train, y_test, num_bats=10, max_iter=10, A=0.5, alpha=0.5, gamma=0.5)
-print("Best features selected:", np.where(best_features)[0])
+   print("Best features selected:", np.where(best_features)[0])
    ```
    The Bat Algorithm is applied to select the best features. The algorithm parameters (e.g., `num_bats`, `max_iter`, `A`, `alpha`, `gamma`) can be adjusted based on specific requirements.
 
